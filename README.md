@@ -6,5 +6,8 @@ Demo: https://mangel-gare.github.io/platzi-curso-responsive-design-maquetacion-m
 - Maquetación semántica
 - Accesibilidad básica
 
+## Capturas de pantalla
+Ves a: assets/capturas
+
 ## Cómo correrlo
 Abre `index.html` en el navegador.
