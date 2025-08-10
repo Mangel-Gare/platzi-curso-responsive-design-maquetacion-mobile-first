@@ -1,0 +1,55 @@
+
+.main-tables-container {
+    display:flex;
+    width: 600px;
+    margin: 0 auto;  /* Centra el contenedor de las tablas */
+}
+.section .product-cards--container {
+    display: inline-block;
+    align-items: center;
+    margin-left: 100px;;
+    
+}
+.product-cards--container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    align-items: center;     /* Centra las tarjetas verticalmente */
+    max-width: 100%;
+    margin: 0 auto;
+}
+.plans-container--slider {
+    justify-content: center;
+}
+
+.product-detail--card {
+    display:inline-flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column; /* Alinea los elementos de la tarjeta del detalle del producto en columna */
+    width: 100%; /* Ancho de la tarjeta del detalle del producto */    
+    max-width: 308px;       
+    height: auto; /* Altura automática para la tarjeta del detalle del producto */
+    margin: 0 auto; /* Centrado automático de la tarjeta del detalle del producto */
+    margin: 15px;
+    padding: 20px; /* Espacio interno de 20px para la tarjeta del detalle del producto */
+    background-color: var(--black); /* Color de fondo de la tarjeta del detalle del producto */
+    border-radius: 10px; /* Bordes redondeados para la tarjeta del detalle del producto */
+}
+
+.plans-container--cards {
+    position: relative;
+    scroll-snap-align: center; /* Alinea el contenedor de tarjetas de planes al centro al arrastrar */        
+    width: 70%;
+    min-width: 260px; /* Ancho mínimo del contenedor de tarjetas de planes */
+    max-width: 290px; /* Ancho máximo del contenedor de tarjetas de planes*/
+    height: 250px; 
+    /* Como no usamos "gap" en plans-container--slider, aquí usaremos lo siguiente: "margin: 50px 15px 0px 15px;"*/
+    margin: 50px 15px 0px 15px; /* Centrado automático del contenedor de tarjetas de planes */
+    margin-bottom: 50px; /* Margen inferior para el contenedor de tarjetas de planes */
+    padding: 0 15px; /* Espacio a los lados del contenedor de tarjetas de planes */
+    border-radius: 15px; /* Bordes redondeados para el contenedor de tarjetas de planes */
+    background-color: var(--just-white); /* Color de fondo del contenedor de tarjetas de planes */
+    box-shadow: 0px 4px 8px 0px rgba(89, 73, 30, 0.16); /* Sombra para el contenedor de tarjetas de planes */
+}
